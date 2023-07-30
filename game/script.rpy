@@ -10,28 +10,39 @@ define e = Character("Eileen")
 
 image ayase_0: 
     zoom 0.75
-    im.Composite((1433,3100), (0,1525), "Ayase/Ayase_body_00.png" ,(0,1525),"Ayase/ayase_ah.png")
+    im.Composite((1433,3100), (0,1525), "sprite/ayase/ayase_body_00.png" ,(0,1525),"sprite/ayase/ayase_ah.png")
 
 image ayase_0_1: 
     zoom 0.75
-    im.Composite((1433,3100), (0,1525), "Ayase2/Ayase2_body_00.png" ,(0,1525),"Ayase2/ayase2_angry.png")
+    im.Composite((1433,3100), (0,1825), "sprite/ayase2/ayase2_body_00.png" ,(0,1825),"sprite/ayase2/ayase2_angry.png")
+
+image eri_0_0: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625), "sprite/eri/eri_body_00.png" ,(0,1625),"sprite/eri/eri_angry.png")
+
+image mikan_0_0:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625), "sprite/mikan/mikan_body.png" ,(0,1625),"sprite/mikan/mikan_ah.png")
+
+
+
 
 image ayase_1: 
     zoom 0.75
-    im.Composite((1433,3100), (0,1525), "Ayase/Ayase_body_00.png" ,(0,1525),"Ayase/ayase_lazy.png")
+    im.Composite((1433,3100), (0,1525), "sprite/ayase/ayase_body_00.png" ,(0,1525),"sprite/ayase/ayase_lazy.png")
 
 image ayase_1_1: 
     zoom 0.75
-    im.Composite((1433,3100), (0,1525), "Ayase2/Ayase2_body_00.png" ,(0,1525),"Ayase2/ayase2_sad.png")
+    im.Composite((1433,3100), (0,1525), "sprite/ayase2/ayase2_body_00.png" ,(0,1525),"sprite/ayase2/ayase2_sad.png")
 
 
 image ayase_2: 
     zoom 0.75
-    im.Composite((1433,3100), (0,1525), "Ayase/Ayase_body_00.png" ,(0,1525),"Ayase/ayase_oh.png")
+    im.Composite((1433,3100), (0,1525), "sprite/ayase/ayase_body_00.png" ,(0,1525),"sprite/ayase/ayase_oh.png")
 
 image ayase_2_1: 
     zoom 0.75
-    im.Composite((1433,3100), (0,1525), "Ayase2/Ayase2_body_00.png" ,(0,1525),"Ayase2/ayase2_oh.png")
+    im.Composite((1433,3100), (0,1525), "sprite/ayase2/ayase2_body_00.png" ,(0,1525),"sprite/ayase2/ayase2_oh.png")
 
 
 
@@ -64,6 +75,29 @@ label start:
     # images directory to show it.
 
     scene bg room
+
+    show ayase_0_1 at center
+
+    e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
+
+    hide ayase_0_1
+
+
+    
+    show mikan_0_0 at center
+
+    e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
+
+    hide mikan_0_0
+
+
+
+    show eri_0_0 at center
+
+    e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
+
+    hide eri_0_0
+
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images

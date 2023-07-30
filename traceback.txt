@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Composite object at 0x0000000005953fa0>:
-  File "game/script.rpy", line 66, in script
+While loading <renpy.display.im.Composite object at 0x0000000008c1b190>:
+  File "game/script.rpy", line 82, in script
     e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
-OSError: Couldn't find file 'Ayase2/ayase2_ah.png'.
+OSError: Couldn't find file 'sprite/eri/angry.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 66, in script
+  File "game/script.rpy", line 82, in script
     e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
   File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
     renpy.exports.say(who, what, *args, **kwargs)
@@ -32,6 +32,10 @@ Full traceback:
   File "render.pyx", line 266, in renpy.display.render.render
   File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
     surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\transition.py", line 378, in render
+    top = render(self.new_widget, width, height, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
   File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
@@ -70,9 +74,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename)
   File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'Ayase2/ayase2_ah.png'.
+OSError: Couldn't find file 'sprite/eri/angry.png'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
 renpy_framework 1.0
-Sat Jul 29 00:30:51 2023
+Mon Jul 31 00:35:47 2023
