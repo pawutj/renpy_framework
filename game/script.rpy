@@ -8,6 +8,55 @@ define e = Character("Eileen")
 
 # The game starts here.
 
+image ayase_0: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525), "Ayase/Ayase_body_00.png" ,(0,1525),"Ayase/ayase_ah.png")
+
+image ayase_0_1: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525), "Ayase2/Ayase2_body_00.png" ,(0,1525),"Ayase2/ayase2_angry.png")
+
+image ayase_1: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525), "Ayase/Ayase_body_00.png" ,(0,1525),"Ayase/ayase_lazy.png")
+
+image ayase_1_1: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525), "Ayase2/Ayase2_body_00.png" ,(0,1525),"Ayase2/ayase2_sad.png")
+
+
+image ayase_2: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525), "Ayase/Ayase_body_00.png" ,(0,1525),"Ayase/ayase_oh.png")
+
+image ayase_2_1: 
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525), "Ayase2/Ayase2_body_00.png" ,(0,1525),"Ayase2/ayase2_oh.png")
+
+
+
+transform left3:
+    xalign -0.25
+    yalign 1.0
+
+transform right3:
+    xalign 1.25
+    yalign 1.0
+
+transform left2:
+    xalign -0.05
+    yalign 1.0
+
+transform right2:
+    xalign 1.05
+    yalign 1.0
+
+transform centerzoom:
+    zoom 1.4
+    xalign 0.5
+    yalign 0.85
+
+
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
@@ -20,13 +69,56 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show ayase_0 at center
+    e "You've created a new Ren'Py game." with dissolve
+    hide ayase_0 
+
+    show ayase_0 at centerzoom
+    e "You've created a new Ren'Py game." with dissolve
+    hide ayase_0 
+
+
+    show ayase_0 at left3
+    show ayase_1 at center
+    show ayase_2 at right3
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "You've created a new Ren'Py game." with dissolve
+    
+    hide ayase_0 
+    hide ayase_1 
+    hide ayase_2
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+
+
+    show ayase_0 at left3
+    show ayase_1 at center
+    show ayase_2 at right3
+
+    # These display lines of dialogue.
+
+    e "You've created a new Ren'Py game.2" with dissolve
+    
+    hide ayase_0 
+    hide ayase_1 
+    hide ayase_2
+
+
+    show ayase_0 at left2
+    show ayase_2 at right2
+
+    e "You've created a new Ren'Py game." with dissolve
+
+    hide ayase_0
+    hide ayase_2
+
+
+    show ayase_0_1 at left
+    show ayase_1_1 at center
+    show ayase_2_1 at right
+
+    e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
 
     # This ends the game.
 
