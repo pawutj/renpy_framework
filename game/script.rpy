@@ -76,11 +76,11 @@ label start:
 
     scene bg room
 
-    show ayase_0_1 at center
+    show ayase_body_00_ayase at center
 
     e "Once you add a story, pictures, and music, you can release it to the world!" with dissolve
 
-    hide ayase_0_1
+    hide ayase_body_00_ayase
 
 
     

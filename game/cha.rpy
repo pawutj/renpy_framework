@@ -1,0 +1,81 @@
+image ayase_body_00_ayase:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase.png") 
+image ayase_body_00_ayase_ah:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_ah.png") 
+image ayase_body_00_ayase_angry:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry.png") 
+image ayase_body_00_ayase_angry2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry2.png") 
+image ayase_body_00_ayase_angry3:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry3.png") 
+image ayase_body_00_ayase_angry4:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry4.png") 
+image ayase_body_00_ayase_annoy:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_annoy.png") 
+image ayase_body_00_ayase_anya:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_anya.png") 
+image ayase_body_00_ayase_body_00:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_body_00.png") 
+image ayase_body_00_ayase_body_01:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_body_01.png") 
+image ayase_body_00_ayase_body_02:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_body_02.png") 
+image ayase_body_00_ayase_comfort:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_comfort.png") 
+image ayase_body_00_ayase_comfort2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_comfort2.png") 
+image ayase_body_00_ayase_confident:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_confident.png") 
+image ayase_body_00_ayase_confident2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_confident2.png") 
+image ayase_body_00_ayase_lazy:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_lazy.png") 
+image ayase_body_00_ayase_lazy2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_lazy2.png") 
+image ayase_body_00_ayase_normal:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_normal.png") 
+image ayase_body_00_ayase_oh:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_oh.png") 
+image ayase_body_00_ayase_oh2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_oh2.png") 
+image ayase_body_00_ayase_sad:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_sad.png") 
+image ayase_body_00_ayase_sad2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_sad2.png") 
+image ayase_body_00_ayase_sleepy:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_sleepy.png") 
+image ayase_body_00_ayase_smile:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_smile.png") 
+image ayase_body_00_ayase_smug:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_smug.png") 
+image ayase_body_00_ayase_smug2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_smug2.png") 
+image ayase_body_00_ayase_uwah:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_uwah.png") 
