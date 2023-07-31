@@ -1,12 +1,6 @@
 #set PYTHONIOENCODING=utf-8
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 
-def printHide(c):
-    if(c == ""):
-        return
-    print("hide " + c +"\n")
-    
-
 import pandas as pd
 
 data = pd.read_csv('pv.csv',encoding="utf-8")
@@ -16,50 +10,79 @@ data = data.fillna("")
 data['summary'] = data['who'] + ' "' + data['talk'] + '"'
 data
 
-p = []
-temp_charector = ""
-temp_charector_emotion=""
-temp_screen = ""
-temp_disolve=True
+
+
+def show_emotion_list(emotion_list,zoom=False):
+
+    if(len(emotion_list) == 1 and zoom == True):
+        print(f'show {current_charector_list[0]}_{emotion_list[0]} at centerzoom')
+        return
+
+    if(len(emotion_list) == 1):
+        print(f'show {current_charector_list[0]}_{emotion_list[0]} at center')
+    if(len(emotion_list) == 2):
+        print(f'show {current_charector_list[0]}_{emotion_list[0]} at left2')
+        print(f'show {current_charector_list[1]}_{emotion_list[1]} at right2')
+    if(len(emotion_list) == 3):
+        print(f'show {current_charector_list[0]}_{emotion_list[0]} at left3')
+        print(f'show {current_charector_list[1]}_{emotion_list[1]} at center')
+        print(f'show {current_charector_list[2]}_{emotion_list[2]} at right3')
+    return
+
+def hide_emotion_list(emotion_list):
+    for i in range(current_charector_list):
+        print(f'hide {current_charector_list[i]}_{emotion_list[i]}')
+    return
+current_charector_list = []
+previous_emotion = ""
+current_emotion_list = []
+
 for i,c in data.iterrows():
+    ### Assign ##############################
 
-    if(c['bg']):
-        print("show "+c['bg'] +" with Dissolve(1.0)")
-        printHide(temp_screen)
-        temp_screen = c['bg']
-
-    if(c['bgm'] and c['bgm'] != 'stop music'):
-        print('play music "audio/bgm/'+c['bgm']+'.mp3" volume 0.5')
+    bg = c['bg']
+    bg_effect = c['bg_effect']
+    bgm = c['bgm']
+    zoom = c['zoom']
+    character = c['character']
+    emotion = c['emotion']
+    effect = c['effect']
+    who_talk = c['who_talk']
+    talk = c['talk']
+    voice = c['voice']
     
-    if(c['bgm'] == 'stop music'):
-        print("stop music")
 
-    if(c['charector']):
-        if(c['charector'] == 'hide'):
-            printHide(temp_charector_emotion)
-            temp_charector = ""
-        else :
-            printHide(temp_charector_emotion)
-            temp_charector = c['charector']
-            temp_charector_emotion = temp_charector +"_"+c['emotion']
-            print("show " +temp_charector_emotion)
-            temp_disolve = True
+    #### PreProcess ##########################
+
+    if(emotion == ""):
+        current_emotion = previous_emotion
+    else:
+        current_emotion = emotion
+
+
+
+    ### Action ###############################
+
+
+    if(bg):
+        print(f'scene {bg} with Dissolve(1.0)')
+
+    if(bgm and bgm != 'stop'):
+        print(f'play music "audio/bgm/{bgm}.mp3 volume 0.5')
+    
+    if(bgm =='stop'):
+        print(f"stop music")
+
+    if(character):
+        current_charector_list = character.split(',')
         
-    else:
-        if( c['emotion']):
-            printHide(temp_charector_emotion)
-            temp_charector_emotion = temp_charector + "_"+c['emotion']
-            print("show " + temp_charector_emotion)
-            temp_disolve = True
-    if(c['effect'] != ""):
-        print("show "+c['effect'] +" with Dissolve(1.0)")
+    if(emotion):
+        emotion_list = emotion.split(',')
+        show_emotion_list(emotion_list)
 
-    if(temp_disolve):
-        print(c['summary'].strip() + " with dissolve")
-        temp_disolve = False
-    else:
-        print(c['summary'].strip())
-    if(c['effect'] != ""):
-        print("hide "+c['effect'])
+    if(talk):
+        print(f'{who_talk} {talk} with dissolve')
 
-printHide(temp_charector_emotion)
+    if(emotion):
+        emotion_list = emotion.split(',')
+        hide_emotion_list(emotion_list)
