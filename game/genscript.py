@@ -3,13 +3,11 @@
 
 import pandas as pd
 
-data = pd.read_csv('pv.csv',encoding="utf-8")
-
+data = pd.read_csv('renpy_framework.csv',encoding="utf-8")
 data = data.fillna("")
 
-data['summary'] = data['who'] + ' "' + data['talk'] + '"'
-data
-
+# data['summary'] = data['who'] + ' "' + data['talk'] + '"'
+# print(data['talk'])
 
 
 def show_emotion_list(emotion_list,zoom=False):
@@ -30,7 +28,7 @@ def show_emotion_list(emotion_list,zoom=False):
     return
 
 def hide_emotion_list(emotion_list):
-    for i in range(current_charector_list):
+    for i in range(len(current_charector_list)):
         print(f'hide {current_charector_list[i]}_{emotion_list[i]}')
     return
 current_charector_list = []
@@ -81,8 +79,12 @@ for i,c in data.iterrows():
         show_emotion_list(emotion_list)
 
     if(talk):
-        print(f'{who_talk} {talk} with dissolve')
+        print(f'"{who_talk} {talk}" with dissolve')
 
     if(emotion):
         emotion_list = emotion.split(',')
         hide_emotion_list(emotion_list)
+
+    ### Post ####################################
+    if(emotion):
+        previous_emotion = emotion

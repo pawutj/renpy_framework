@@ -5,7 +5,7 @@
 
 define e = Character("Eileen")
 
-
+image artroom_afternoon = im.Scale("bg/art-room1.jpg",1920,1080)
 # The game starts here.
 
 image ayase_0: 
@@ -73,6 +73,8 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
+
+    jump chap1
 
     scene bg room
 
