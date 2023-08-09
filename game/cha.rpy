@@ -1,0 +1,234 @@
+image ayase_body_00_ayase:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase.png") 
+image ayase_body_00_ayase_ah:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_ah.png") 
+image ayase_body_00_ayase_angry:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry.png") 
+image ayase_body_00_ayase_angry2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry2.png") 
+image ayase_body_00_ayase_angry3:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry3.png") 
+image ayase_body_00_ayase_angry4:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_angry4.png") 
+image ayase_body_00_ayase_annoy:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_annoy.png") 
+image ayase_body_00_ayase_anya:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_anya.png") 
+image ayase_body_00_ayase_body_00:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_body_00.png") 
+image ayase_body_00_ayase_body_01:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_body_01.png") 
+image ayase_body_00_ayase_body_02:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_body_02.png") 
+image ayase_body_00_ayase_comfort:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_comfort.png") 
+image ayase_body_00_ayase_comfort2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_comfort2.png") 
+image ayase_body_00_ayase_confident:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_confident.png") 
+image ayase_body_00_ayase_confident2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_confident2.png") 
+image ayase_body_00_ayase_lazy:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_lazy.png") 
+image ayase_body_00_ayase_lazy2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_lazy2.png") 
+image ayase_body_00_ayase_normal:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_normal.png") 
+image ayase_body_00_ayase_oh:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_oh.png") 
+image ayase_body_00_ayase_oh2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_oh2.png") 
+image ayase_body_00_ayase_sad:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_sad.png") 
+image ayase_body_00_ayase_sad2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_sad2.png") 
+image ayase_body_00_ayase_sleepy:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_sleepy.png") 
+image ayase_body_00_ayase_smile:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_smile.png") 
+image ayase_body_00_ayase_smug:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_smug.png") 
+image ayase_body_00_ayase_smug2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_smug2.png") 
+image ayase_body_00_ayase_uwah:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_uwah.png") 
+image eri_body_00_eri_ah:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_ah.png") 
+image eri_body_00_eri_angry:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_angry.png") 
+image eri_body_00_eri_angry2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_angry2.png") 
+image eri_body_00_eri_angry3:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_angry3.png") 
+image eri_body_00_eri_angrymeme:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_angrymeme.png") 
+image eri_body_00_eri_body_00:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_body_00.png") 
+image eri_body_00_eri_body_01:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_body_01.png") 
+image eri_body_00_eri_body_02:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_body_02.png") 
+image eri_body_00_eri_confident:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_confident.png") 
+image eri_body_00_eri_normal:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_normal.png") 
+image eri_body_00_eri_panic:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_panic.png") 
+image eri_body_00_eri_panic2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_panic2.png") 
+image eri_body_00_eri_panicmeme:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_panicmeme.png") 
+image eri_body_00_eri_panicmeme2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_panicmeme2.png") 
+image eri_body_00_eri_sad:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_sad.png") 
+image eri_body_00_eri_sad2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_sad2.png") 
+image eri_body_00_eri_sad3:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_sad3.png") 
+image eri_body_00_eri_sadisstic:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_sadisstic.png") 
+image eri_body_00_eri_smile:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_smile.png") 
+image eri_body_00_eri_smug:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_smug.png") 
+image eri_body_00_eri_wakaranai:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_wakaranai.png") 
+image mikan_body_mikan_ah:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_ah.png") 
+image mikan_body_mikan_angry:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_angry.png") 
+image mikan_body_mikan_angry2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_angry2.png") 
+image mikan_body_mikan_angrymeme:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_angrymeme.png") 
+image mikan_body_mikan_angrymeme2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_angrymeme2.png") 
+image mikan_body_mikan_awaa:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_awaa.png") 
+image mikan_body_mikan_body:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_body.png") 
+image mikan_body_mikan_body02:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_body02.png") 
+image mikan_body_mikan_bubu:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_bubu.png") 
+image mikan_body_mikan_bubu2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_bubu2.png") 
+image mikan_body_mikan_casual_body:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_casual_body.png") 
+image mikan_body_mikan_confident:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_confident.png") 
+image mikan_body_mikan_crymeme:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_crymeme.png") 
+image mikan_body_mikan_ha:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_ha.png") 
+image mikan_body_mikan_ha2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_ha2.png") 
+image mikan_body_mikan_neko:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_neko.png") 
+image mikan_body_mikan_neko2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_neko2.png") 
+image mikan_body_mikan_neko3:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_neko3.png") 
+image mikan_body_mikan_normal:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_normal.png") 
+image mikan_body_mikan_panic:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_panic.png") 
+image mikan_body_mikan_panic2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_panic2.png") 
+image mikan_body_mikan_panic3:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_panic3.png") 
+image mikan_body_mikan_pero:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_pero.png") 
+image mikan_body_mikan_pero2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_pero2.png") 
+image mikan_body_mikan_sad:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_sad.png") 
+image mikan_body_mikan_sad2:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_sad2.png") 
+image mikan_body_mikan_serious:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_serious.png") 
+image mikan_body_mikan_smile:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_smile.png") 
+image mikan_body_mikan_smug:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_smug.png") 
+image mikan_body_mikan_tonoshi:
+    zoom 0.75
+    im.Composite((1433,3100), (0,1625),"sprite/mikan/mikan_body.png",(0,1625),"sprite/mikan/mikan_tonoshi.png") 

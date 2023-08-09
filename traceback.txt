@@ -1,0 +1,37 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/gui.rpy", line 154, in script
+    define gui.button_text_font = gui.interface_text_font
+  File "game/gui.rpy", line 154, in script
+    define gui.button_text_font = gui.interface_text_font
+  File "game/gui.rpy", line 154, in <module>
+    define gui.button_text_font = gui.interface_text_font
+AttributeError: 'StoreModule' object has no attribute 'interface_text_font'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/gui.rpy", line 154, in script
+    define gui.button_text_font = gui.interface_text_font
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "game/gui.rpy", line 154, in script
+    define gui.button_text_font = gui.interface_text_font
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 2441, in execute
+    self.set()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 2455, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/gui.rpy", line 154, in <module>
+    define gui.button_text_font = gui.interface_text_font
+AttributeError: 'StoreModule' object has no attribute 'interface_text_font'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+renpy_framework 1.0
+Mon Jul 31 23:22:28 2023
