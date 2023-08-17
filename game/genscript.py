@@ -35,6 +35,12 @@ current_charector_list = []
 previous_emotion = ""
 current_emotion_list = []
 
+def get_charector_talk(c , charector_list , emotion_list):
+    if(c):
+        return [i for i in charector_list if c in i][0] ,[i for i in emotion_list if c in i][0] 
+    return "",""
+
+
 for i,c in data.iterrows():
     ### Assign ##############################
 
@@ -48,6 +54,7 @@ for i,c in data.iterrows():
     who_talk = c['who_talk']
     talk = c['talk']
     voice = c['voice']
+    charector_talk , emotion_talk = get_charector_talk(who_talk, character.split(',') , emotion.split(','))
     
 
     #### PreProcess ##########################
@@ -83,7 +90,10 @@ for i,c in data.iterrows():
 
 
     if(talk):
-        print(f'"{who_talk} {talk}" with dissolve')
+        if(who_talk):
+            print(f'c_{charector_talk}_{emotion_talk} "{who_talk} {talk}" with dissolve')
+        else:
+            print(f'"{talk}" with dissolve')
 
     if(emotion):
         emotion_list = emotion.split(',')
