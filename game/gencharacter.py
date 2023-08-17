@@ -17,7 +17,18 @@ for c in onlyfiles:
     print(f"""image {body_path}_{emo_path}:""")
     print(f"""    zoom 0.75""")
     print(f"""    im.Composite({main_size}, {size},"sprite/{directory_path}/{body_path}.png",{size},"sprite/{directory_path}/{emo_path}.png") """)
+#Side#
+for c in onlyfiles:
+    emo_path = c.split('.')[0]
+    print(f"""image side {body_path}_{emo_path}:""")
+    print(f"""    zoom 0.5""")
+    print(f"""    yoffset 300""")
+    print(f"""    xoffset -175""")
+    print(f"""    im.Composite({main_size}, {size},"sprite/{directory_path}/{body_path}.png",{size},"sprite/{directory_path}/{emo_path}.png") """)
 
+for c in onlyfiles:
+    emo_path = c.split('.')[0]
+    print(f'define c_{body_path}_{emo_path} = Character("อายาเสะ",image = "{body_path}_{emo_path}" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])')
 ################################################################################################################
 
 mypath = "./images/sprite/eri"
@@ -30,6 +41,18 @@ for c in onlyfiles:
     print(f"""image {body_path}_{emo_path}:""")
     print(f"""    zoom 0.75""")
     print(f"""    im.Composite({main_size}, {size},"sprite/{directory_path}/{body_path}.png",{size},"sprite/{directory_path}/{emo_path}.png") """)
+#Side#
+for c in onlyfiles:
+    emo_path = c.split('.')[0]
+    print(f"""image side {body_path}_{emo_path}:""")
+    print(f"""    zoom 0.5""")
+    print(f"""    yoffset 300""")
+    print(f"""    xoffset -175""")
+    print(f"""    im.Composite({main_size}, {size},"sprite/{directory_path}/{body_path}.png",{size},"sprite/{directory_path}/{emo_path}.png") """)
+
+for c in onlyfiles:
+    emo_path = c.split('.')[0]
+    print(f'define c_{body_path}_{emo_path} = Character("เอริ",image = "{body_path}_{emo_path}" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])')
 
 ######################################################################################################
 
@@ -43,6 +66,21 @@ for c in onlyfiles:
     print(f"""image {body_path}_{emo_path}:""")
     print(f"""    zoom 0.75""")
     print(f"""    im.Composite({main_size}, {size},"sprite/{directory_path}/{body_path}.png",{size},"sprite/{directory_path}/{emo_path}.png") """)
+#Side#
+for c in onlyfiles:
+    emo_path = c.split('.')[0]
+    print(f"""image side {body_path}_{emo_path}:""")
+    print(f"""    zoom 0.5""")
+    print(f"""    yoffset 300""")
+    print(f"""    xoffset -175""")
+    print(f"""    im.Composite({main_size}, {size},"sprite/{directory_path}/{body_path}.png",{size},"sprite/{directory_path}/{emo_path}.png") """)
+
+for c in onlyfiles:
+    emo_path = c.split('.')[0]
+    print(f'define c_{body_path}_{emo_path} = Character("มิคัง",image = "{body_path}_{emo_path}" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])')
+
+#################################################################################################################################
+
 
 
 
