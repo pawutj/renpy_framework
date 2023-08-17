@@ -2,8 +2,8 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 
 import pandas as pd
-
-data = pd.read_csv('renpy_framework.csv',encoding="utf-8")
+FILE_NAME = "chap1.csv"
+data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 
 # data['summary'] = data['who'] + ' "' + data['talk'] + '"'
