@@ -1,8 +1,8 @@
 label chap1:
     scene artroom_afternoon with Dissolve(1.0)
     show ayase_body_00_ayase_angry2 at center
-    play sound "audio/voice/Ayase01.wav"
-    "ayase คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
+    # play sound "audio/voice/Ayase01.wav"
+    ayase "ayase คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
     hide ayase_body_00_ayase_angry2
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_confident at right2
@@ -13,7 +13,7 @@ label chap1:
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_confident at right2
     play sound "audio/voice/Eri01.wav"
-    "eri สามคะแนนที่ไหน สามสิบ ต่างหาก!" with dissolve
+    eri "eri สามคะแนนที่ไหน สามสิบ ต่างหาก!" with dissolve
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_confident
     show eri_body_00_eri_normal at left2

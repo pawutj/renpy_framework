@@ -8,6 +8,24 @@ define e = Character("Eileen")
 image artroom_afternoon = im.Scale("bg/art-room1.jpg",1920,1080)
 # The game starts here.
 
+
+
+
+define ayase = Character("อายาเสะ",image = "ayase_body_00_ayase_ah" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define eri = Character("เอริ",image = "eri_body_00_eri_angry" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+
+image side ayase_body_00_ayase_ah:
+    zoom 0.5
+    yoffset 300
+    xoffset -175
+    im.Composite((1433,3100), (0,1525),"sprite/ayase/ayase_body_00.png",(0,1525),"sprite/ayase/ayase_ah.png")
+
+image side eri_body_00_eri_angry:
+    zoom 0.5
+    yoffset 300
+    xoffset -175
+    im.Composite((1433,3100), (0,1625),"sprite/eri/eri_body_00.png",(0,1625),"sprite/eri/eri_angry.png") 
+
 image ayase_0: 
     zoom 0.75
     im.Composite((1433,3100), (0,1525), "sprite/ayase/ayase_body_00.png" ,(0,1525),"sprite/ayase/ayase_ah.png")
