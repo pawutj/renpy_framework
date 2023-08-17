@@ -78,6 +78,10 @@ for i,c in data.iterrows():
         emotion_list = emotion.split(',')
         show_emotion_list(emotion_list)
 
+    if(voice):
+        print(f'play sound "audio/voice/{voice}"')
+
+
     if(talk):
         print(f'"{who_talk} {talk}" with dissolve')
 

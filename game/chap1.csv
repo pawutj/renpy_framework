@@ -1,25 +1,27 @@
 bg,bg_effect,bgm,zoom,character,emotion,effect,transition,who_talk,talk,voice
-artroom_afternoon,,,,ayase_body_00,ayase_angry2,,,ayase,คะแนนของพวกเธอเข้าขั้นวิกฤตแล้ว พวกเธอสองคนรู้ตัวรึเปล่า ,
-,,,,"eri_body_00,mikan_body","eri_normal,mikan_confident",,,mikan,ฉันขาดอีกสามคะแนนก็ผ่านแล้ว,
-,,,,,"eri_ah,mikan_confident",,,eri,สามคะแนนที่ไหน สามสิบ ต่างหาก,
-,,,,,"eri_normal,mikan_bubu2",,,mikan,เอ๋ ~,
-,,,,ayase_body_00,ayase_angry4,,,ayase,ไม่ต้องมาเอ๋เลย ฉันจะติวให้พวกเธอเอง,
-,,,,ayase_body_00,ayase_uwah,,,ayase,เริ่มจากวิชาเคมีก่อน,
-,,,,"eri_body_00,mikan_body","eri_normal,mikan_ah",,,mikan,เคมีที่มันอยู่ในวัด?,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันเจดีห์,
-,,,,,"eri_normal,mikan_ah",,,mikan,ที่เป็นคู่แข่ง Marvel,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันดีซี,
-,,,,,"eri_normal,mikan_ah",,,mikan,ที่มันมีคนมาร้องเพลง,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันเวที,
-,,,,ayase_body_00,ayase_angry,,,ayase,พวกเธอเล่นกันพอได้ยัง ฉันจะเริ่มสอนแล้วนะ,
-,,,,ayase_body_00,ayase_confident,,,ayase,เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาติก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ดี... มันคือ,
-,,,,"eri_body_00,mikan_body","eri_normal,mikan_ah",,,mikan,โซเดียมที่มันมาจากต่างดาว?,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันเอเลี่ยน,
-,,,,,"eri_normal,mikan_ah",,,mikan,ที่มันใช้ยืนบรรยายในห้องประชุม,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นโพเดี้ยม,
-,,,,,"eri_normal,mikan_ah",,,mikan,ที่มันเป็นสแตนด์,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมัน โกล อี เรเควียม,
-,,,,ayase_body_00,,,,ayase,ถ้าพวกเธอเล่นกันแบบนี้ พวกเธอจะเอาอะไรไปสอบ,
-,,,,"eri_body_00,mikan_body","eri_normal,mikan_ah",,,mikan,อะไร ที่เป็นบริษัทขายของเล่น?,
-,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นบันได,
-,,,,ayase_body_00,ayase_angry4,,,ayase,แล้วนี่ใช่บันไดรึเปล่า?,
+artroom_afternoon,,,,ayase_body_00,ayase_angry2,,,ayase,คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า ,Ayase01.wav
+,,,,"eri_body_00,mikan_body","eri_normal,mikan_confident",,,mikan,ฉันขาดอีกสามคะแนนก็ผ่านแล้ว,mikan_00.wav
+,,,,,"eri_ah,mikan_confident",,,eri,สามคะแนนที่ไหน สามสิบ ต่างหาก!,Eri01.wav
+,,,,,"eri_normal,mikan_bubu2",,,mikan,เอ๋ ~,mikan_01.wav
+,,,,ayase_body_00,ayase_angry4,,,ayase,ไม่ต้องมาเอ๋เลย ฉันจะติวให้พวกเธอเอง,Ayase02.wav
+,,,,ayase_body_00,ayase_uwah,,,ayase,เริ่มจากวิชาเคมีก่อน,Ayase03.wav
+,,,,"eri_body_00,mikan_body","eri_normal,mikan_ah",,,mikan,เคมีที่มันอยู่ในวัด?,mikan_02.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันเจดีห์,Eri02.wav
+,,,,,"eri_normal,mikan_ah",,,mikan,ที่เป็นคู่แข่ง Marvel,mikan_03.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันดีซี,Eri03.wav
+,,,,,"eri_normal,mikan_ah",,,mikan,ที่มันมีคนมาร้องเพลง,mikan_04.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันเวที,Eri04.wav
+,,,,ayase_body_00,ayase_angry,,,ayase,พวกเธอเล่นกันพอได้ยัง ฉันจะเริ่มสอนแล้วนะ,Ayase04.wav
+,,,,ayase_body_00,ayase_confident,,,ayase,เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ,Ayase05.wav
+,,,,"eri_body_00,mikan_body","eri_normal,mikan_ah",,,mikan,โซเดียมที่มันมาจากต่างดาว?,mikan_05.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมันเอเลี่ยน,Eri05.wav
+,,,,,"eri_normal,mikan_ah",,,mikan,ที่มันใช้ยืนบรรยายในห้องประชุม,mikan_06.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นโพเดี้ยม,Eri06.wav
+,,,,,"eri_normal,mikan_ah",,,mikan,ที่มันเป็นสแตนด์,mikan_07.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นมัน โกล อี เรเควียม,Eri07.wav
+,,,,ayase_body_00,ayase_angry,,,ayase,ถ้าพวกเธอเล่นกันแบบนี้ พวกเธอจะเอาอะไรไปสอบ,Ayase06.wav
+,,,,"eri_body_00,mikan_body","eri_normal,mikan_ah",,,mikan,อะไร ที่เป็นบริษัทขายของเล่น?,mikan_08.wav
+,,,,,"eri_ah,mikan_tonoshi",,,eri,นั่นบันได,Eri08.wav
+,,,,ayase_body_00,ayase_angry4,,,ayase,แล้วนี่ใช่บันไดรึเปล่า?,Ayase07.wav
+,,,,,,,,eri&mikan,อ๊ะ!?,mikan_09.wav
+,,,,,,,,,sound effect โดนทุบ,
