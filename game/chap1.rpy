@@ -37,11 +37,11 @@ label chap1:
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
+    show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri02.wav"
     c_eri_body_00_eri_ah "นั่นมันเจดีห์" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
     play sound "audio/voice/mikan_03.wav"
@@ -49,11 +49,11 @@ label chap1:
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
+    show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri03.wav"
     c_eri_body_00_eri_ah "นั่นมันดีซี" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
     play sound "audio/voice/mikan_04.wav"
@@ -61,11 +61,11 @@ label chap1:
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
+    show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri04.wav"
     c_eri_body_00_eri_ah "นั่นมันเวที" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show ayase_body_00_ayase_angry at center
     play sound "audio/voice/Ayase04.wav"
     c_ayase_body_00_ayase_angry "พวกเธอเล่นกันพอได้ยัง ฉันจะเริ่มสอนแล้วนะ" with dissolve
@@ -130,7 +130,5 @@ label chap1:
     play sound "audio/voice/Ayase07.wav"
     c_ayase_body_00_ayase_angry4 "แล้วนี่ใช่บันไดรึเปล่า?" with dissolve
     hide ayase_body_00_ayase_angry4
-    play sound "audio/voice/mikan_09.wav"
-    "อ๊ะ!?" with dissolve
-    "sound effect โดนทุบ" with dissolve
+
     return
