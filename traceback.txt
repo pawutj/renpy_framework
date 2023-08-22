@@ -1,37 +1,51 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/gui.rpy", line 154, in script
-    define gui.button_text_font = gui.interface_text_font
-  File "game/gui.rpy", line 154, in script
-    define gui.button_text_font = gui.interface_text_font
-  File "game/gui.rpy", line 154, in <module>
-    define gui.button_text_font = gui.interface_text_font
-AttributeError: 'StoreModule' object has no attribute 'interface_text_font'
+  File "game/chap1.rpy", line 5, in script
+    "ayase คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'audio/voiceAyase01.wav'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
-    renpy.main.main()
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\main.py", line 558, in main
-    renpy.game.context().run(node)
-  File "game/gui.rpy", line 154, in script
-    define gui.button_text_font = gui.interface_text_font
+  File "game/chap1.rpy", line 5, in script
+    "ayase คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 891, in execute
+    statement_name("say")
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\exports.py", line 1657, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 2798, in do_with
+    return self.interact(trans_pause=True,
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
   File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "game/gui.rpy", line 154, in script
-    define gui.button_text_font = gui.interface_text_font
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 2441, in execute
-    self.set()
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 2455, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/gui.rpy", line 154, in <module>
-    define gui.button_text_font = gui.interface_text_font
-AttributeError: 'StoreModule' object has no attribute 'interface_text_font'
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/voiceAyase01.wav'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
 renpy_framework 1.0
-Mon Jul 31 23:22:28 2023
+Fri Aug 18 00:43:57 2023

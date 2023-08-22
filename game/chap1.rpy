@@ -1,107 +1,134 @@
 label chap1:
     scene artroom_afternoon with Dissolve(1.0)
     show ayase_body_00_ayase_angry2 at center
-    "ayase คะแนนของพวกเธอเข้าขั้นวิกฤตแล้ว พวกเธอสองคนรู้ตัวรึเปล่า " with dissolve
+    play sound "audio/voice/Ayase01.wav"
+    c_ayase_body_00_ayase_angry2 "คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
     hide ayase_body_00_ayase_angry2
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_confident at right2
-    "mikan ฉันขาดอีกสามคะแนนก็ผ่านแล้ว" with dissolve
+    play sound "audio/voice/mikan_00.wav"
+    c_mikan_body_mikan_confident "ฉันขาดอีกสามคะแนนก็ผ่านแล้ว" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_confident
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_confident at right2
-    "eri สามคะแนนที่ไหน สามสิบ ต่างหาก" with dissolve
+    play sound "audio/voice/Eri01.wav"
+    c_eri_body_00_eri_ah "สามคะแนนที่ไหน สามสิบ ต่างหาก!" with dissolve
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_confident
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_bubu2 at right2
-    "mikan เอ๋ ~" with dissolve
+    play sound "audio/voice/mikan_01.wav"
+    c_mikan_body_mikan_bubu2 "เอ๋ ~" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_bubu2
     show ayase_body_00_ayase_angry4 at center
-    "ayase ไม่ต้องมาเอ๋เลย ฉันจะติวให้พวกเธอเอง" with dissolve
+    play sound "audio/voice/Ayase02.wav"
+    c_ayase_body_00_ayase_angry4 "ไม่ต้องมาเอ๋เลย ฉันจะติวให้พวกเธอเอง" with dissolve
     hide ayase_body_00_ayase_angry4
     show ayase_body_00_ayase_uwah at center
-    "ayase เริ่มจากวิชาเคมีก่อน" with dissolve
+    play sound "audio/voice/Ayase03.wav"
+    c_ayase_body_00_ayase_uwah "เริ่มจากวิชาเคมีก่อน" with dissolve
     hide ayase_body_00_ayase_uwah
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan เคมีที่มันอยู่ในวัด?" with dissolve
+    play sound "audio/voice/mikan_02.wav"
+    c_mikan_body_mikan_ah "เคมีที่มันอยู่ในวัด?" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
-    "eri นั่นมันเจดีห์" with dissolve
+    show mikan2_body_00_mikan2_sign at right2
+    play sound "audio/voice/Eri02.wav"
+    c_eri_body_00_eri_ah "นั่นมันเจดีห์" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan ที่เป็นคู่แข่ง Marvel" with dissolve
+    play sound "audio/voice/mikan_03.wav"
+    c_mikan_body_mikan_ah "ที่เป็นคู่แข่ง Marvel" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
-    "eri นั่นมันดีซี" with dissolve
+    show mikan2_body_00_mikan2_sign at right2
+    play sound "audio/voice/Eri03.wav"
+    c_eri_body_00_eri_ah "นั่นมันดีซี" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan ที่มันมีคนมาร้องเพลง" with dissolve
+    play sound "audio/voice/mikan_04.wav"
+    c_mikan_body_mikan_ah "ที่มันมีคนมาร้องเพลง" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
-    "eri นั่นมันเวที" with dissolve
+    show mikan2_body_00_mikan2_sign at right2
+    play sound "audio/voice/Eri04.wav"
+    c_eri_body_00_eri_ah "นั่นมันเวที" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show ayase_body_00_ayase_angry at center
-    "ayase พวกเธอเล่นกันพอได้ยัง ฉันจะเริ่มสอนแล้วนะ" with dissolve
+    play sound "audio/voice/Ayase04.wav"
+    c_ayase_body_00_ayase_angry "พวกเธอเล่นกันพอได้ยัง ฉันจะเริ่มสอนแล้วนะ" with dissolve
     hide ayase_body_00_ayase_angry
     show ayase_body_00_ayase_confident at center
-    "ayase เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาติก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ดี... มันคือ" with dissolve
+    play sound "audio/voice/Ayase05.wav"
+    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ" with dissolve
     hide ayase_body_00_ayase_confident
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan โซเดียมที่มันมาจากต่างดาว?" with dissolve
+    play sound "audio/voice/mikan_05.wav"
+    c_mikan_body_mikan_ah "โซเดียมที่มันมาจากต่างดาว?" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_tonoshi at right2
-    "eri นั่นมันเอเลี่ยน" with dissolve
+    play sound "audio/voice/Eri05.wav"
+    c_eri_body_00_eri_ah "นั่นมันเอเลี่ยน" with dissolve
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_tonoshi
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan ที่มันใช้ยืนบรรยายในห้องประชุม" with dissolve
+    play sound "audio/voice/mikan_06.wav"
+    c_mikan_body_mikan_ah "ที่มันใช้ยืนบรรยายในห้องประชุม" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_tonoshi at right2
-    "eri นั่นโพเดี้ยม" with dissolve
+    play sound "audio/voice/Eri06.wav"
+    c_eri_body_00_eri_ah "นั่นโพเดี้ยม" with dissolve
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_tonoshi
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan ที่มันเป็นสแตนด์" with dissolve
+    play sound "audio/voice/mikan_07.wav"
+    c_mikan_body_mikan_ah "ที่มันเป็นสแตนด์" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_tonoshi at right2
-    "eri นั่นมัน โกล อี เรเควียม" with dissolve
+    play sound "audio/voice/Eri07.wav"
+    c_eri_body_00_eri_ah "นั่นมัน โกล อี เรเควียม" with dissolve
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_tonoshi
-    "ayase ถ้าพวกเธอเล่นกันแบบนี้ พวกเธอจะเอาอะไรไปสอบ" with dissolve
+    show ayase_body_00_ayase_angry at center
+    play sound "audio/voice/Ayase06.wav"
+    c_ayase_body_00_ayase_angry "ถ้าพวกเธอเล่นกันแบบนี้ พวกเธอจะเอาอะไรไปสอบ" with dissolve
+    hide ayase_body_00_ayase_angry
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
-    "mikan อะไร ที่เป็นบริษัทขายของเล่น?" with dissolve
+    play sound "audio/voice/mikan_08.wav"
+    c_mikan_body_mikan_ah "อะไร ที่เป็นบริษัทขายของเล่น?" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_tonoshi at right2
-    "eri นั่นบันได" with dissolve
+    play sound "audio/voice/Eri08.wav"
+    c_eri_body_00_eri_ah "นั่นบันได" with dissolve
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_tonoshi
     show ayase_body_00_ayase_angry4 at center
-    "ayase แล้วนี่ใช่บันไดรึเปล่า?" with dissolve
+    play sound "audio/voice/Ayase07.wav"
+    c_ayase_body_00_ayase_angry4 "แล้วนี่ใช่บันไดรึเปล่า?" with dissolve
     hide ayase_body_00_ayase_angry4
+
     return
