@@ -1,4 +1,4 @@
-label chap1:
+label chap1:    
     scene artroom_afternoon with Dissolve(1.0)
     show ayase_body_00_ayase_angry2 at center
     play sound "audio/voice/Ayase01.wav"
@@ -81,11 +81,13 @@ label chap1:
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
+    show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri05.wav"
+    show ben
     c_eri_body_00_eri_ah "นั่นมันเอเลี่ยน" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
+    hide ben
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
     play sound "audio/voice/mikan_06.wav"
@@ -93,11 +95,11 @@ label chap1:
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
+    show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri06.wav"
     c_eri_body_00_eri_ah "นั่นโพเดี้ยม" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
     play sound "audio/voice/mikan_07.wav"
@@ -105,11 +107,13 @@ label chap1:
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_ah
     show eri_body_00_eri_ah at left2
-    show mikan_body_mikan_tonoshi at right2
+    show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri07.wav"
+    show gold
     c_eri_body_00_eri_ah "นั่นมัน โกล อี เรเควียม" with dissolve
     hide eri_body_00_eri_ah
-    hide mikan_body_mikan_tonoshi
+    hide mikan2_body_00_mikan2_sign
+    hide gold
     show ayase_body_00_ayase_angry at center
     play sound "audio/voice/Ayase06.wav"
     c_ayase_body_00_ayase_angry "ถ้าพวกเธอเล่นกันแบบนี้ พวกเธอจะเอาอะไรไปสอบ" with dissolve

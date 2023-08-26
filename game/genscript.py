@@ -27,23 +27,6 @@ def show_emotion_list(emotion_list,zoom=False):
         print(f'show {current_charector_list[2]}_{emotion_list[2]} at right3')
     return
 
-def show_effect_list(emotion_list,zoom=False):
-
-    if(len(emotion_list) == 1 and zoom == True):
-        print(f'show {current_charector_list[0]}_{emotion_list[0]} at centerzoom')
-        return
-
-    if(len(emotion_list) == 1):
-        print(f'show {current_charector_list[0]}_{emotion_list[0]} at center')
-    if(len(emotion_list) == 2):
-        print(f'show {current_charector_list[0]}_{emotion_list[0]} at left2')
-        print(f'show {current_charector_list[1]}_{emotion_list[1]} at right2')
-    if(len(emotion_list) == 3):
-        print(f'show {current_charector_list[0]}_{emotion_list[0]} at left3')
-        print(f'show {current_charector_list[1]}_{emotion_list[1]} at center')
-        print(f'show {current_charector_list[2]}_{emotion_list[2]} at right3')
-    return
-
 def hide_emotion_list(emotion_list):
     for i in range(len(current_charector_list)):
         print(f'hide {current_charector_list[i]}_{emotion_list[i]}')
@@ -105,6 +88,9 @@ for i,c in data.iterrows():
 
     if(voice):
         print(f'play sound "audio/voice/{voice}"')
+    
+    if(bg_effect):
+        print(f'show {bg_effect}')
 
     charector_talk , emotion_talk = get_charector_talk(who_talk, current_charector_list , emotion_list)
     
@@ -117,6 +103,10 @@ for i,c in data.iterrows():
     if(emotion):
         emotion_list = emotion.split(',')
         hide_emotion_list(emotion_list)
+
+    if(bg_effect):
+        print(f'hide {bg_effect}')
+
 
     ### Post ####################################
     if(emotion):
