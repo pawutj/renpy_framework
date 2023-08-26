@@ -85,6 +85,12 @@ transform centerzoom:
     xalign 0.5
     yalign 0.85
 
+init -2:
+    style nvl_dialogue:
+        line_spacing 10
+    style say_dialogue:
+        line_spacing 10   
+
 
 label start:
 

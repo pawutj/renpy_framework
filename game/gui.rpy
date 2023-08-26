@@ -55,18 +55,18 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "SukhumvitSet-Medium.ttf"
+define gui.text_font = "LayijiMahaniyomV1_61.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "SukhumvitSet-Medium.ttf"
+define gui.name_text_font = "LayijiMahaniyomV1_61.ttf"
 ## The font used for out-of-game text.
-define gui.interface_text_font = "SukhumvitSet-Medium.ttf"
-
+define gui.interface_text_font = "LayijiMahaniyomV1_61.ttf"
+define gui.language = "thaic90"
 ## The size of normal dialogue text.
-define gui.text_size = 33
+define gui.text_size = 45
 
 ## The size of character names.
-define gui.name_text_size = 45
+define gui.name_text_size = 55
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 33
@@ -403,7 +403,7 @@ define gui.nvl_button_xalign = 0.0
 ## for most languages. A list of available values can be found at https://
 ## www.renpy.org/doc/html/style_properties.html#style-property-language
 
-define gui.language = "unicode"
+# define gui.language = "unicode"
 
 
 ################################################################################
