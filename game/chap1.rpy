@@ -23,10 +23,10 @@ label chap1:
     c_mikan_body_mikan_bubu2 "เอ๋ ~" with dissolve
     hide eri_body_00_eri_normal
     hide mikan_body_mikan_bubu2
-    show ayase_body_00_ayase_angry4 at center
+    show ayase_body_00_ayase_angry2 at center
     play sound "audio/voice/Ayase02.wav"
-    c_ayase_body_00_ayase_angry4 "ไม่ต้องมาเอ๋เลย ฉันจะติวให้พวกเธอเอง" with dissolve
-    hide ayase_body_00_ayase_angry4
+    c_ayase_body_00_ayase_angry2 "ไม่ต้องมาเอ๋เลย ฉันจะติวให้พวกเธอเอง" with dissolve
+    hide ayase_body_00_ayase_angry2
     show ayase_body_00_ayase_uwah at center
     play sound "audio/voice/Ayase03.wav"
     c_ayase_body_00_ayase_uwah "เริ่มจากวิชาเคมีก่อน" with dissolve
@@ -104,11 +104,11 @@ label chap1:
     hide podium
     hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
-    show mikan_body_mikan_ah at right2
+    show mikan_body_mikan_tonoshi at right2
     play sound "audio/voice/mikan_07.wav"
-    c_mikan_body_mikan_ah "ที่มันเป็นสแตนด์" with dissolve
+    c_mikan_body_mikan_tonoshi "ที่มันเป็นสแตนด์" with dissolve
     hide eri_body_00_eri_normal
-    hide mikan_body_mikan_ah
+    hide mikan_body_mikan_tonoshi
     show eri_body_00_eri_ah at left2
     show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri07.wav"
@@ -143,6 +143,8 @@ label chap1:
     hide ladder
     play sound "audio/sfx/tukkomi.mp3"
     "ผลัวะ" with dissolve
+    play sound "audio/voice/mikan_09.wav"
+    c_mikan_body_mikan_crymeme "อ๊ะ!?" with dissolve
 
     scene artroom_afternoon with Dissolve(1.0)
 
