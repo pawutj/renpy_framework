@@ -1,51 +1,85 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/chap1.rpy", line 5, in script
-    "ayase คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
-  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
-    _window_show(auto=True)
-  File "renpy/common/000window.rpy", line 69, in _window_show
-    renpy.with_statement(trans)
-OSError: Couldn't find file 'audio/voiceAyase01.wav'.
+While loading <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000055ba910>:
+  File "game/chap1.rpy", line 75, in script
+    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ" with dissolve
+  File "game/chap1.rpy", line 75, in script
+    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ" with dissolve
+OSError: Couldn't find file 'gui/textbox.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chap1.rpy", line 5, in script
-    "ayase คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 891, in execute
-    statement_name("say")
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 47, in statement_name
-    i(name)
-  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
-    _window_show(auto=True)
-  File "renpy/common/000window.rpy", line 69, in _window_show
-    renpy.with_statement(trans)
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\exports.py", line 1657, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 2798, in do_with
-    return self.interact(trans_pause=True,
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\main.py", line 670, in main
+    run(restart)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\main.py", line 144, in run
+    renpy.execution.run_context(True)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\execution.py", line 953, in run_context
+    context.run()
+  File "game/chap1.rpy", line 75, in script
+    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ" with dissolve
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "game/chap1.rpy", line 75, in script
+    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ" with dissolve
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 3579, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
-    renpy.audio.audio.periodic()
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
-    periodic_pass()
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
-    c.periodic()
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
-    topf = load(filename)
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
-    rv = renpy.loader.load(fn)
-  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 4172, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\core.py", line 2779, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\screen.py", line 731, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\layout.py", line 1371, in render
+    back = render(style.background, bw, bh, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\im.py", line 676, in render
+    return cache.get(self, render=True)
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\im.py", line 330, in get
+    surf = image.load()
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\im.py", line 803, in load
+    raise e
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\display\im.py", line 757, in load
+    filelike = renpy.loader.load(self.filename, directory="images")
+  File "D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\renpy\loader.py", line 833, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'audio/voiceAyase01.wav'.
+OSError: Couldn't find file 'gui/textbox.png'.
 
 Windows-10-10.0.19045 AMD64
-Ren'Py 8.0.3.22090809
+Ren'Py 8.1.1.23060707
 renpy_framework 1.0
-Fri Aug 18 00:43:57 2023
+Sat Aug 26 22:03:41 2023

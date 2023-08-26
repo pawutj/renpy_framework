@@ -5,7 +5,7 @@
 
 define e = Character("Eileen")
 
-image artroom_afternoon = im.Scale("bg/art-room1.jpg",1920,1080)
+image artroom_afternoon = im.Scale("bg/school-park1.jpg",1920,1080)
 # The game starts here.
 
 

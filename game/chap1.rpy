@@ -1,4 +1,5 @@
-label chap1:    
+label chap1:
+    play music "audio/bgm/wakuwaku.mp3"    
     scene artroom_afternoon with Dissolve(1.0)
     show ayase_body_00_ayase_angry2 at center
     play sound "audio/voice/Ayase01.wav"
@@ -97,8 +98,10 @@ label chap1:
     show eri_body_00_eri_ah at left2
     show mikan2_body_00_mikan2_sign at right2
     play sound "audio/voice/Eri06.wav"
+    show podium
     c_eri_body_00_eri_ah "นั่นโพเดี้ยม" with dissolve
     hide eri_body_00_eri_ah
+    hide podium
     hide mikan2_body_00_mikan2_sign
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
@@ -127,12 +130,20 @@ label chap1:
     show eri_body_00_eri_ah at left2
     show mikan_body_mikan_tonoshi at right2
     play sound "audio/voice/Eri08.wav"
+    show bandai
     c_eri_body_00_eri_ah "นั่นบันได" with dissolve
+    hide bandai
     hide eri_body_00_eri_ah
     hide mikan_body_mikan_tonoshi
     show ayase_body_00_ayase_angry4 at center
     play sound "audio/voice/Ayase07.wav"
+    show ladder
     c_ayase_body_00_ayase_angry4 "แล้วนี่ใช่บันไดรึเปล่า?" with dissolve
     hide ayase_body_00_ayase_angry4
+    hide ladder
+    play sound "audio/sfx/tukkomi.mp3"
+    "ผลัวะ" with dissolve
 
-    return
+    scene artroom_afternoon with Dissolve(1.0)
+
+    return 
