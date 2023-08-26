@@ -1,5 +1,5 @@
 label chap1:
-    play music "audio/bgm/wakuwaku.mp3"    
+    play music "audio/bgm/wakuwaku.mp3"
     scene artroom_afternoon with Dissolve(1.0)
     show ayase_body_00_ayase_angry2 at center
     play sound "audio/voice/Ayase01.wav"
