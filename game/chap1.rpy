@@ -3,7 +3,7 @@ label chap1:
     scene artroom_afternoon with Dissolve(1.0)
     show ayase_body_00_ayase_angry2 at center
     play sound "audio/voice/Ayase01.wav"
-    c_ayase_body_00_ayase_angry2 "คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอรู้ตัวรึเปล่า " with dissolve
+    c_ayase_body_00_ayase_angry2 "คะแนนของพวกเธอสองคนเข้าขั้นวิกฤตแล้ว พวกเธอสองคนรู้ตัวรึเปล่า " with dissolve
     hide ayase_body_00_ayase_angry2
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_confident at right2
@@ -73,7 +73,7 @@ label chap1:
     hide ayase_body_00_ayase_angry
     show ayase_body_00_ayase_confident at center
     play sound "audio/voice/Ayase05.wav"
-    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ใช่ไหม... มันคือ" with dissolve
+    c_ayase_body_00_ayase_confident "เริ่มจากพวกเธอต้องเข้าใจเกี่ยวกับธาตุก่อน พวกเธอคงรู้จักไฮโดนเจน ฮีเลียม โซเดียมอะไรพวกนี้ดี... มันคือ" with dissolve
     hide ayase_body_00_ayase_confident
     show eri_body_00_eri_normal at left2
     show mikan_body_mikan_ah at right2
