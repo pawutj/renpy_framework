@@ -1,0 +1,23 @@
+bg,bg_effect,bgm,zoom,character,emotion,effect,transition,who_talk,talk,voice
+classroom_morning,,,,mikan_body,mikan_sad2,,,mikan,...,
+,,,,eri_body_00,eri_ah,,,eri,เมื่อคืนเธอไม่ได้นอนเหรอ? ขอบตาดำเชียว,chap2/Eri00.wav
+,,,,"mikan_body,eri_body_00","mikan_smug,eri_ah",,,mikan,ฉันไปเล่นเกมส์ปริศนามาล่ะ โจทย์ยากสุดๆเลย,chap2/mikan_01.wav
+,,,,"mikan_body,eri_body_00,ayase_body_00","mikan_smug,eri_ah,ayase_confident",,,ayase,เกมส์ปริศนาเหรอ ของถนัดเลย,chap2/Ayase1.wav
+,,,,mikan_body,mikan_smile,,,mikan,งั้นเรามาเล่นด้วยกันไหมหล่ะ?,chap2/mikan_02.wav
+rouka_s_1080,,,,eri_body_00,eri_confident,,,eri,บรรยากาศดูลึกลับสมกับเป็นเกมส์ปริศนาเลย,chap2/Eri01.wav
+,,,,ayase_body_00,ayase_oh,,,ayase,อ้ะ! มีแมวด้วยล่ะ,chap2/Ayase2.wav
+,,,,mikan_body,mikan_awaa,,,mikan,อย่าคิดว่ามันเป็นแค่แมวน่ารักๆเชียว ,chap2/mikan_03.wav
+,,,,-,,,,,ใครเป็นพ่อของสุดสาคร?,chap2/Cat00.wav
+,,,,mikan_body,mikan_serious,,,mikan,นี่ไง โจทย์ยากๆของมัน,chap2/mikan_04.wav
+,,,,"mikan_body,ayase_body_00","mikan_serious,ayase_sad",,,ayase,(นี่มันยากตรงไหนเนี่ย),chap2/Ayase3.wav
+,,,,eri_body_00,eri_confident,,,eri,ฉันรู้ๆ สุดเมืองคอน,chap2/Eri02.wav
+,,,,"eri_body_00,ayase_body_00","eri_confident,ayase_annoy",,,ayase,มันใช่ที่ไหนล่ะ คำตอบคือ พระ...,chap2/Ayase4.wav
+,,,,mikan_body,mikan_confident,,,mikan,สุดสาหัส!,chap2/mikan_05.wav
+,,,,-,,,,,คำใบ้ ขึ้นต้นด้วยคำว่าพระ,chap2/Cat01.wav
+,,,,mikan_body,mikan_confident,,,mikan,พระนเรศวร!,chap2/mikan_06.wav
+,,,,"mikan_body,ayase_body_00","mikan_confident,ayase_annoy",,,ayase,พวกเธอหยุดแย่งฉันตอบซักที คำตอบคือ พระอภัย..,chap2/Ayase5.wav
+,,,,eri_body_00,eri_confident,,,eri,พระอภัยโทษ!,chap2/Eri03
+,,,,"eri_body_00,ayase_body_00","eri_confident,ayase_annoy",,,ayase,หยุดมั่วกันได้แล้ว!,chap2/Ayase6.wav
+,,,,ayase_body_00,ayase_confident2,,,ayase,คำตอบคือ พระอภัยทานตังหาก,chap2/Ayase7.wav
+,,,,ayase_body_00,ayase_annoy,,,ayase,(อ๊ากก เผลอเอาชื่อที่พวกโง่นั่นตอบมาผสมซะได้),chap2/Ayase8.wav
+,,,,-,,,,,Memary สามารถดาวด์โหลตฟรีได้แล้ววันนี้ ที่ Steam!,chap2/Cat02.wav

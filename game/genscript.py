@@ -2,7 +2,7 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 
 import pandas as pd
-FILE_NAME = "chap1.csv"
+FILE_NAME = "chap2.csv"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 
