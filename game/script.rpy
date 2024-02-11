@@ -6,11 +6,12 @@
 define e = Character("Eileen")
 
 image artroom_afternoon = im.Scale("bg/school-park1.jpg",1920,1080)
+image classroom_morning = im.Scale("bg/classroom_morning.jpg",1920,1080)
 # The game starts here.
 
 
 
-
+define cat = Character("แมว", image ="cat" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define ayase = Character("อายาเสะ",image = "ayase_body_00_ayase_ah" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define eri = Character("เอริ",image = "eri_body_00_eri_angry" ,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
@@ -43,6 +44,10 @@ image mikan_0_0:
     im.Composite((1433,3100), (0,1625), "sprite/mikan/mikan_body.png" ,(0,1625),"sprite/mikan/mikan_ah.png")
 
 
+image cat normal :
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000),"cat/cat_normal.png") 
 
 
 image ayase_1: 
